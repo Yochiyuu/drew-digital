@@ -9,7 +9,7 @@ import React from "react"; // Impor React untuk tipe
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = { // Beri tipe pada metadata
-  title: "Astra Digital",
+  title: "Drew Digital",
   description: "Solusi Digital Inovatif",
 };
 
