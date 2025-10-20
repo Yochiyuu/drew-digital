@@ -1,13 +1,9 @@
-/* app/globals.css */
+/* app/globals.css (INI UNTUK v3) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Tambahkan .css di akhir setiap baris */
-@import "tailwindcss/preflight.css";
-@import "tailwindcss/components.css";
-@import "tailwindcss/utilities.css";
-
-/* * Aturan CSS kustom Anda (seperti 'body') 
- * diletakkan SETELAH impor di atas
- */
+/* Aturan kustom Anda (opsional) */
 body {
   @apply bg-gray-50 text-gray-900;
 }
